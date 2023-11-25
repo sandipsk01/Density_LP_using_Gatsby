@@ -1,12 +1,22 @@
 import * as React from "react"
-import Layout from "../components/Layout"
-
+import Navbar from "../components/Navbar"
+import '../styles/global.css'
+import Hero from "../components/Hero"
+import AnalysisFrame from "../components/AnalysisFrame"
+import Vector from "../components/Vector"
+import CompareBox from "../components/CompareBox"
+import ExploreChart from "../components/ExploreChart"
+import Footer from "../components/Footer"
 export default function Home() {
   return (
     <section>
-    <Layout>
-      <h1>Hello</h1>
-    </Layout>
+      <Navbar/>
+      <Hero />
+      <AnalysisFrame />
+      <Vector />
+      <CompareBox />
+      <ExploreChart />
+      <Footer />
   </section>
   )
   

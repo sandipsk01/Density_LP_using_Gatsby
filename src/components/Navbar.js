@@ -4,7 +4,8 @@ import React from 'react'
 export default function Navbar() {
   return (
     <nav>
-        <img src='/navLogo.svg' alt='Density'/>
+      <img src='/navLogo.svg' alt='Density'/>
+        
         <div className='links'>
             <Link to='/'>Career</Link>
             <Link to='/'>Blogs</Link>
@@ -12,6 +13,7 @@ export default function Navbar() {
             <Link to='/'>Fees</Link>
             <Link to='/' className='trade'>TRADE NOW</Link>
         </div>   
+        
     </nav>
   )
 }
