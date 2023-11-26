@@ -6,6 +6,7 @@
   text-decoration: none;
   font-family: "Roboto";
   color: white;
+  
 }
 
 html,
@@ -363,7 +364,124 @@ flex-shrink: 0;
 background: url("../../static/Texture.png"), lightgray 0% 0% / 64.93775248527527px 64.93775248527527px repeat;
 mix-blend-mode: overlay;
 }
+/* Backed */
+.backed{
+  display: flex;
+padding: 140px 0px;
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: center;
+gap: 82px;
+align-self: stretch;
+}
 
+.backedquote{
+  color: var(--White, #FFF);
+text-align: center;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: 76.882px; /* 106.78% */
+letter-spacing: -2.097px;
+}
+
+.backedcomp{
+  display: flex;
+width: 954px;
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 80px;
+flex-wrap: wrap;
+}
+
+.backedppl{
+
+  display: flex;
+  width: 1041px;
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 40px;
+flex-wrap: wrap;
+}
+
+.pplframe{
+  display: flex;
+width: 144px;
+height: 205px;
+  flex-direction: column;
+  text-align: center;
+align-items: center;
+gap: 16px;
+}
+
+.pplname{
+  color: var(--White, #FFF);
+font-size: 20.48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+/* Share */
+.share{
+  display: flex;
+padding: 140px 0px;
+flex-direction: column;
+align-items: center;
+gap: 82px;
+}
+
+.shareslog{
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+}
+
+.sharequote{
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 24px;
+}
+.shareopt{
+ display: flex;
+ flex-direction: row;
+ gap: 24px;
+}
+.sharebox{
+  width: 323px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.share button{
+  margin-top: 0;
+  display: flex;
+  width: 200px;
+  height: 48px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: black;
+  background: linear-gradient(86deg, #d4f938 23.09%, #32d875 108.69%);
+  box-shadow: 0px 0px 16px 0px rgba(168, 239, 156, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+/* Community */
+
+.cover{
+width: 100vw;
+}
+
+/* Footer */
 footer {
   justify-content: center;
   align-items: center;

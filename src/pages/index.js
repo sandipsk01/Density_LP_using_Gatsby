@@ -7,6 +7,9 @@ import Vector from "../components/Vector"
 import CompareBox from "../components/CompareBox"
 import ExploreChart from "../components/ExploreChart"
 import Footer from "../components/Footer"
+import Backed from "../components/Backed"
+import Share from "../components/Share"
+import Community from "../components/Community"
 export default function Home() {
   return (
     <section>
@@ -16,7 +19,11 @@ export default function Home() {
       <Vector />
       <CompareBox />
       <ExploreChart />
+      <Backed />
+      <Share />
+      <Community />
       <Footer />
+
   </section>
   )
   
